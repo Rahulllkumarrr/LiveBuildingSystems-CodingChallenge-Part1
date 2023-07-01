@@ -64,7 +64,7 @@ in json format for the specific meter_id passed into the URL as a parameter.
 </ol>
 
 
-<b>Website Pages</b>
+<b>Webapp Pages</b>
 
 <h3>Page 1 - Displays Meter Names ("/meters")
 <img style='width: 600px' src="static/images/meters-page.JPG"></img>
