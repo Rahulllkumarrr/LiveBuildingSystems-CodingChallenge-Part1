@@ -1,7 +1,4 @@
-![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/rahulllkumarrr/LiveBuildingSystems-CodingChallenge-Part1/raw/test.json)
-
-# Live Building Systems - Coding Challenge - Part1
-<h2>1. Desription</h2>
+# Live Building Systems - Coding Challenge - Part 1
 Live Building Systems 2018
 Coding Challenge - Part 1/2 Back End:
 
@@ -60,7 +57,7 @@ in json format for the specific meter_id passed into the URL as a parameter.
 </ol>
 
 
-<b>Website Pages</b>
+<b>Webapp Pages</b>
 
 <h3>Page 1 - Displays Meter Names ("/meters")
 <img style='width: 600px' src="static/images/meters-page.JPG"></img>
