@@ -23,10 +23,10 @@ def start_app():
 
     db.init_app(app)
     with app.app_context():
-        db.drop_all()
+        # db.drop_all()
         db.create_all()
-    response = insert_fake_data(app, db)
-    print(response)
+    # response = insert_fake_data(app, db)
+    # print(response)
     app.run()
 
 

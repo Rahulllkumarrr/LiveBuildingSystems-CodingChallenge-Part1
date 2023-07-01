@@ -9,12 +9,12 @@ from database import db, Meter, MeterData
 fake = Faker()
 
 
-def insert_fake_data(app, db, no_of_labels: int = 20, no_of_values: int = 100):
+def insert_fake_data(app, db, no_of_labels: int = 100, no_of_values: int = 100):
     # try:
     with app.app_context():
         for _ in range(no_of_labels):
             # generating Fake Meter Name
-            label = fake.bothify(text="Meter : ?????-#########")
+            label = fake.bothify(text="METER-(???:####)")
             meter = Meter(label)
             db.session.add(meter)
             db.session.commit()

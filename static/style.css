@@ -1,14 +1,82 @@
 :root {
-    --big_font: 32px;
+    --big_font: 24px;
     --small_font: 16px;
-    --dark_green: rgb(0, 100, 0);
+    --dark_green: rgb(0, 150, 0);
     --light_green: rgb(0, 200, 0);
+    --box-size: 50px;
 }
 
 
+a {
+    text-decoration: none !important;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+.display-box {
+    margin-top: 1%;
+}
 
 
 h2 {
     font-size: var(--big_font);
-    color: var(--dark_green);
+    color: rgb(230, 230, 230);
+}
+
+
+.card {
+    background: var(--dark_green);
+    margin: 5px auto;
+    border: 1px var(--dark_green) solid;
+    padding-left: 30px;
+    width: 40%;
+    min-width: 600px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+
+.buttons-align {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pagination {
+    margin: 20px auto;
+    border: 1px rgb(200, 200, 200) solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pagination a {
+    border-radius: 1px;
+    background: white;
+    width: auto;
+    min-width: var(--box-size);
+    height: auto;
+    text-align: center;
+    font-size: var(--big_font);
+    color: black;
+    padding: 10px 10px;
+    margin: auto auto;
+}
+
+
+.pagination a.active {
+    border-radius: 1px;
+    background: var(--light_green);
+    width: auto;
+    min-width: var(--box-size);
+    height: auto;
+    text-align: center;
+    font-size: var(--big_font);
+    color: white;
+    padding: auto 10px;
+    margin: auto auto;
 }

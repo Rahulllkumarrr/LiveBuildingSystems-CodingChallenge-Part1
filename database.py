@@ -17,7 +17,7 @@ class Meter(db.Model):
         self.label = label
 
     def __repr__(self):
-        return self.label
+        return f"{self.id} - {self.label}"
 
 
 class MeterData(db.Model):
