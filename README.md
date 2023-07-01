@@ -1,4 +1,4 @@
-# Live Building Systems - Coding Challenge - Part1
+# Live Building Systems - Coding Challenge - Part 1
 Live Building Systems 2018
 Coding Challenge - Part 1/2 Back End:
 
