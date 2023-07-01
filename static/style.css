@@ -1,0 +1,14 @@
+:root {
+    --big_font: 32px;
+    --small_font: 16px;
+    --dark_green: rgb(0, 100, 0);
+    --light_green: rgb(0, 200, 0);
+}
+
+
+
+
+h2 {
+    font-size: var(--big_font);
+    color: var(--dark_green);
+}

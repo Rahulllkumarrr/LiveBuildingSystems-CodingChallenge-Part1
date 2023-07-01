@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "livebuildingsystems-codingchallenge-part1"
+version = "0.1.0"
+description = "Coding Challenge Part 1"
+authors = ["Rahul Kumar <smartrahul1999kumar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.3.2"
+SQLAlchemy = "^2.0.17"
+alembic = "^1.11.1"
+Flask-SQLAlchemy = "^3.0.5"
+Faker = "^18.11.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
