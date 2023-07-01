@@ -1,10 +1,15 @@
-from flask import Blueprint, request
+from flask import Blueprint, request, redirect, url_for
 from flask import render_template, jsonify
 
 from database import Meter, MeterData
 
 
 meter_routes = Blueprint("meter_blueprint", __name__, template_folder="templates")
+
+
+@meter_routes.route("/")
+def home():
+    return redirect(url_for('meter_blueprint.get_meters_list'))
 
 
 @meter_routes.route("/meters", methods=["GET"])
@@ -15,7 +20,6 @@ def get_meters_list():
 
     query = Meter.query.paginate(page=page, per_page=per_page)
     meters = query.items
-    print(meters)
     return render_template(
         "meter.html",
         title="Coding Challenge 1",
