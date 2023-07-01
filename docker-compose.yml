@@ -1,13 +1,10 @@
 version: '3'
 services:
   api:
-    image: test/image
+    image: meter_app
     build:
       context: .
       dockerfile: Dockerfile
     container_name: meter_app
     ports:
       - "5000:5000"
-    # volumes:
-    #   - ./export:/app/export
-    #   - ./build:/app/build
